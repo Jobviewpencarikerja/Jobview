@@ -14,13 +14,13 @@ body {
 .logo img {
     width: 150px; 
     position: absolute;
-    top: 5%; /* Mengatur jarak sebesar 5% dari tinggi viewport */
+    top: 5%;
     left: 50%; 
     transform: translateX(-50%); 
 }
 
 .container {
-    position: relative; /* Menambahkan position: relative pada container */
+    position: relative;
     max-width: 300px;
     margin: 0 auto;
     background-color: #fff;
@@ -37,7 +37,18 @@ h2 {
     margin-top: 0; 
     text-align: center;
 }
+h5 {
+    margin-bottom: 30px; 
+    margin-top: 0px; 
+    text-align: center;
 
+}
+h6 {
+    margin-bottom: 5px; 
+    margin-top: 40px; 
+    text-align: center;
+
+}
 input[type="text"],
 input[type="Konfirmasi"],
 input[type="Kombinasi unik atau kata sandi"] {
