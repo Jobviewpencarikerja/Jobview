@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('interview.png'); 
+    background-size: cover; 
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo img {
+    width: 150px; 
+    position: absolute;
+    top: 5%; /* Mengatur jarak sebesar 5% dari tinggi viewport */
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.container {
+    position: relative; /* Menambahkan position: relative pada container */
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 40px; 
+    margin-top: 0; 
+    text-align: center;
+}
+
+input[type="text"],
+input[type="Konfirmasi"],
+input[type="Kombinasi unik atau kata sandi"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: calc(50% - 20px);
+    padding: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #BE1E2D;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #9c101e;
+}
+
+@media only screen and (max-width: 767px) {
+   .logo img {
+    width: 150px; 
+    position: absolute;
+    top: 20px;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+.container {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+}
