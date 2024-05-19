@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Halaman 1.png'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+}
+
+.container {
+    float: left;
+    width: calc(50% - 20px);
+    margin: 50px 30px 100px; /* Menambahkan margin atas 100px */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Untuk membuat konten di tengah secara horizontal */
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    line-height: 1.6;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: #BE1E2D;
+
+.button:hover {
+    background-color: #BE1E2D;
+}
